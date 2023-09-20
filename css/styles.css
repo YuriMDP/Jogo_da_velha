@@ -1,0 +1,114 @@
+/* centraliza o conteudo do corpo da pagina */
+body {
+  text-align: center;
+}
+
+.fundo1 {
+  /* background-color: black; */
+  position: absolute;
+  width: 250px;
+  top: 15%;
+}
+.fundo1 img {
+  width: 250px;
+}
+
+.fundo2 {
+  /* background-color: black; */
+  position: absolute;
+  width: 250px;
+  top: 15%;
+  right: 10px;
+}
+.fundo2 img {
+  transform: scaleX(-1);
+  width: 250px;
+  height: 350px;
+}
+
+.quadrado {
+  text-align: center;
+  width: 50px;
+  background: rgb(62, 74, 128);
+  display: inline-block;
+  padding: 40px;
+  /* espaçamento interno para o conteúdo dentro do quadrado */
+  font-size: 60px;
+  /* tamanho da fonte (X ou O) dentro do quadrado */
+  cursor: pointer;
+  /*  mostra um cursor de mão quando o mouse passa sobre os quadrados */
+  color: rgb(250, 150, 0);
+}
+
+/*  estilo do texto do jogador e vencedor */
+.jogador,
+.vencedor {
+  font-size: 30px;
+  /*  tamanho da fonte para o texto do jogador e vencedor */
+  margin-top: 10px;
+  /*  espaçamento superior para separar o conteúdo anterior */
+}
+
+/*  estilo do botão reiniciar */
+button {
+  margin-top: 10px;
+  /*  espaçamento superior para separar o conteúdo anterior */
+  width: 10%;
+  /* Largura do botão em relação ao container pai */
+  height: 30px;
+  /* altura do botão */
+  background-color: rgb(230, 100, 53);
+  /* cor do botão */
+  cursor: pointer;
+  /*  mostra um cursor de mão quando o mouse passa sobre o botão*/
+}
+
+.placar {
+  background-color: brown;
+  width: 20%;
+  height: 100px;
+  font-size: 50px;
+  position: absolute;
+  left: 40%;
+  top: 80%;
+}
+
+#pontox {
+  background-color: rgb(250, 150, 0);
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+}
+#pontoo {
+  background-color: rgb(62, 74, 128);
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+}
+
+#apagar1 {
+  position: absolute;
+  width: 250px;
+  left: 8px;
+  top: 450px;
+}
+#apagar1 button {
+  position: absolute;
+  width: 250px;
+  left: 0px;
+}
+
+#apagar2 {
+  position: absolute;
+  width: 250px;
+  right: 9px;
+  top: 455px;
+}
+#apagar2 button {
+  position: absolute;
+  width: 250px;
+  left: 0px;
+}
